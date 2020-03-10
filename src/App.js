@@ -4,7 +4,6 @@ import Header from "./components/header/header.react";
 import Caret from "./components/caret/caret.react";
 
 function App() {
-  var caretVisible = false;
   return (
     <div className="App">
       <header className="App-header">

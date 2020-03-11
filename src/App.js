@@ -12,7 +12,7 @@ class App extends Component {
   componentDidMount() {
     setTimeout(() => {
         this.setState({ toggleCaret: true })
-      }, 10000);
+      }, 6300);
   }
   
   render() {

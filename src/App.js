@@ -5,7 +5,7 @@ import Caret from "./components/caret/caret.react";
 
 class App extends Component {
   constructor() {
-    super()
+    super();
     this.state = { toggleCaret : false }
   }
 

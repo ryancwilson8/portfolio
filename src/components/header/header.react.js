@@ -10,7 +10,6 @@ class Header extends Component {
           <Typing.Delay ms={1000} />
           <p>Hello.</p>
           <Typing.Reset count={0} delay={2000} />
-          {/* <Typing.Delay ms={500} /> */}
           <p>My name is Ryan Wilson.</p>
         </Typing>
       </div>

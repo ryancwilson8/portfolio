@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/header/header.react";
 import Caret from "./components/caret/caret.react";
+import AboutMe from "./components/aboutMe/aboutMe.react";
 
 class App extends Component {
   constructor() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Header />
           {this.state.toggleCaret ? <Caret /> : null }
         </header>
+        <AboutMe />
       </div>
     );
   }
